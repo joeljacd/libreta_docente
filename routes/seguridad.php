@@ -77,7 +77,7 @@ $router->group(['middleware' => 'validarToken'], function () use ($router) {
                 $router->get('listar','TRolModuloOpcionController@listar');
                 $router->post('insertar','TRolModuloOpcionController@insertar');
                 $router->put('actualizar/{idSec}','TRolModuloOpcionController@actualizar');
-            });
+            }); 
             
             /**
              * Mantenimiento Agrupación  
