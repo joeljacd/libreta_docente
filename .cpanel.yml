@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/veritto/front-libreta-docente.pedagogia-curricular.com/ws-libreta #Add /<sub_folder> if required
+    - /bin/cp -r * $DEPLOYPATH
